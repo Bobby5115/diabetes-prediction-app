@@ -22,8 +22,9 @@ st.sidebar.header("⚙️ Settings")
 model_choice = st.sidebar.selectbox("Select Prediction Model",("Logistic Regression", "Random Forest"))
 
 st.sidebar.markdown("---")
-st.sidebar.info("This system predicts diabetes risk using machine learning.")
-
+st.sidebar.caption('Diabetes is a chronic disease that can lead to serious complications if not detected early. This Model is a decision support system that applies machine learning techniques to predict a patients diabetic status based on medical measurements.')
+st.sidebar.info('The model learns patterns from patient data to support early diabetes detection.')
+st.sidebar.warning("It is not a medical diagnosis tool but a decision-support system")
 
 # Input section
 st.header("🧾 Enter Patient Medical Records")
